@@ -6,10 +6,7 @@ const Manager = require("lib/Manager")
 
 const employees = [];
 
-function initApp() {
-    startHtml();
-    addMember();
-}
+
 
 function addMember() {
     inquirer.prompt([{
@@ -37,7 +34,6 @@ function addMember() {
     .then(function({name, role, id, email}) {
         let roleInfo = "";
         if (role === "Engineer") {
-            roleInfo = "GitHub username";
         } else if (role === "Intern") {
             roleInfo = "school name";
         } else {
@@ -80,4 +76,5 @@ function addMember() {
 }
 
 
+initApp();
 
