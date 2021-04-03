@@ -1,0 +1,26 @@
+{
+  "name": "team-info-generater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleEuman/Team-info-generater.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KyleEuman/Team-info-generater/issues"
+  },
+  "homepage": "https://github.com/KyleEuman/Team-info-generater#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "lib": "^4.3.3"
+  }
+}
