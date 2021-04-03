@@ -61,19 +61,12 @@ function addMember() {
             } else {
                 newMember = new Manager(name, id, email, roleInfo);
             }
-            employees.push(newMember);
-            addHtml(newMember)
-            .then(function() {
-                if (moreMembers === "yes") {
-                    addMember();
-                } else {
-                    finishHtml();
-                }
+           
             });
             
         });
-    });
-}
+    };
+
 
 
 initApp();
