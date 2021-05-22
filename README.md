@@ -1,4 +1,3 @@
 # Team-info-generater
-In this assignment I was tasked with Creating an app to generate information on employees and the team.
+Hi In this assignment I have created a node app that allows to keep track of your teams information.
 
-https://github.com/KyleEuman/Team-info-generater
